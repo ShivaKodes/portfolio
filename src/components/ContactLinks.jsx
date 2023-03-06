@@ -12,7 +12,7 @@ export default function ContactLinks() {
       <h2 className="mb-3 text-xl">Let's connect</h2>
       <ul className="flex flex-row justify-center items-center">
         <li className="mx-2 hover:text-[#1DA1F2] drop-shadow-lg">
-          <a href="https://www.twitter.com/__shk20_" target={"_blank"}>
+          <a href="https://twitter.com/__shk20_" target={"_blank"}>
             <AiFillTwitterCircle />
           </a>
         </li>
@@ -30,7 +30,7 @@ export default function ContactLinks() {
         </li>
         <li className="mx-2 hover:text-[#0077b5] drop-shadow-lg">
           {" "}
-          <a href="https://www.github.com/ShivaKodes" target={"_blank"}>
+          <a href="https://www.linkedin.com/in/shivakumar17" target={"_blank"}>
             <AiFillLinkedin />
           </a>
         </li>
