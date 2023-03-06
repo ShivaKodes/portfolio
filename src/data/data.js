@@ -2,8 +2,8 @@ import PG from "../assets/screenshots/password.jpg";
 import qr from "../assets/screenshots/qrcode.jpg";
 import RPS from "../assets/screenshots/rps.jpg";
 import split from "../assets/screenshots/split.jpg";
-import wordle from "../assets/screenshots/wordle.jpg";
-import url from "../assets/screenshots/zepto-url.jpg";
+import wordle from "../assets/screenshots/wordGame.jpg";
+import url from "../assets/screenshots/url.jpg";
 
 const cardData = [
   {
