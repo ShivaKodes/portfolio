@@ -1,5 +1,5 @@
-import PG from "../assets/screenshots/password-generator.jpg";
-import qr from "../assets/screenshots/qrcode-generator.jpg";
+import PG from "../assets/screenshots/password.jpg";
+import qr from "../assets/screenshots/qrcode.jpg";
 import RPS from "../assets/screenshots/rock-pap-scissor.jpg";
 import split from "../assets/screenshots/split.jpg";
 import wordle from "../assets/screenshots/wordle.jpg";
