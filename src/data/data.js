@@ -13,7 +13,7 @@ const cardData = [
     githubLink: "https://github.com/ShivaKodes/Split",
     deployedLink: "",
     description:
-      "A Splitting web app built using HTML, CSS, JS, Django and Sqlite",
+      "A bill splitting web app built using HTML, CSS, JS, Django and Sqlite",
   },
 
   {
