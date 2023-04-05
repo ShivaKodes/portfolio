@@ -2,8 +2,25 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="w-full  text-[#fff] font-stardom flex flex-row  items-center justify-between p-2 text-2xl tablet:text-5xl absolute top-0 left-0 border-b-2 px-2">
-      <h1>Shiva Kumar</h1>
+    <header
+      className="w-full  text-[#fff] font-serif grid grid-cols-12 gap-5  py-4 text-xl px-2 tablet:text-3xl tablet:px-0"
+      id="header"
+    >
+      <ul className="flex justify-evenly items-center w-full col-start-1 col-span-full ">
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+          <a href="#getintouch">Contact</a>
+        </li>
+      </ul>
     </header>
   );
 }

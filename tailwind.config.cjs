@@ -9,10 +9,13 @@ module.exports = {
       "dim-gray": "#E4C5CF",
       transparent: "rgba(0,0,0,0)",
       black: "#000",
+      lime: "#CFCA16",
+      white: "#F9F3F7",
+      "light-black": "#181817",
     },
     fontFamily: {
-      stardom: ["stardom", "sans-serif"],
-      satoshi: ["satoshi", "sans-serif"],
+      mulish: ["Mulish", "sans-serif"],
+      serif: ["Oranienbaum", "serif"],
     },
     screens: {
       mobileS: "320px",
@@ -28,6 +31,15 @@ module.exports = {
     extend: {
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit,minmax(300px,1fr))",
+      },
+      animation: {
+        marquee: "marquee 5s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-60%)" },
+        },
       },
     },
   },
