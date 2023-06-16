@@ -13,7 +13,7 @@ export default function Footer() {
         back to top
       </a>
       <Marquee
-        className="text-white  bg-transprent border-y-2 border-white/30 mt-5 mb-10"
+        className="text-white  bg-transprent border-y-2 border-white/30 mt-5 mb-10 overflow-hidden"
         speed={80}
         gradient={false}
       >

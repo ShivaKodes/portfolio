@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 export default function Marquee2() {
   return (
     <Marquee
-      className="text-white border-y-2 border-white/30 bg-transprent mt-10"
+      className="text-white border-y-2 border-white/30 bg-transprent mt-10 overflow-hidden"
       speed={50}
       gradient={false}
     >
