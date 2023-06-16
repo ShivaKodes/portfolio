@@ -1,20 +1,16 @@
 import { BsArrowUpRight } from "react-icons/bs";
-import { projectData } from "../data/projectData";
 import Pill from "./Pill";
 
-export default function ProjectCard() {
-  const cards = projectData.map((project) => (
-    <div
-      className="text-white flex items-center col-span-full w-full border-t border-white/50 pt-5 font-mulish user-select-none"
-      key={project.id}
-    >
-      <img
+export default function ProjectCard({ project, index, setModal }) {
+  const cards = (
+    <div className="text-white flex items-center col-span-full w-full border-t border-white/50 pt-5 font-mulish user-select-none hover:opacity-70 group transition duration-200 ease-linear" onMouseEnter={()=>{setModal({active:true,index:index})}} onMouseLeave={()=>{setModal({active:false,index:index})}}>
+      {/* <img
         src={project.image}
         alt=""
         className="object-contain w-1/3 max-w-80 mr-2 tablet:mr-10"
-      />
+      /> */}
       <div className="w-full flex items-center h-full">
-        <article className="flex flex-col self-start flex-1  w-1/2 tablet:gap-2">
+        <article className="flex flex-col self-start flex-1  w-1/2 tablet:gap-2 group-hover:translate-x-3 transition duration-200 ease-linear">
           <h3 className="text-[clamp(1.125rem,0.875rem+1.25vw,2rem)] ">
             {project.name}
           </h3>
@@ -33,7 +29,7 @@ export default function ProjectCard() {
             ))}
           </div>
         </article>
-        <div className="col-start-10 flex flex-col items-end gap-2 tablet:gap-4 font-bold italic text-[clamp(0.75rem,0.3928571428571429rem+1.7857142857142856vw,2rem)] ">
+        <div className="col-start-10 flex flex-col items-end gap-2 tablet:gap-4 font-bold italic text-[clamp(0.75rem,0.3928571428571429rem+1.7857142857142856vw,2rem)] group-hover:-translate-x-3 transition duration-200 ease-linear">
           <a
             href={`https://${project.github}`}
             className="flex items-center group"
@@ -55,7 +51,7 @@ export default function ProjectCard() {
         </div>
       </div>
     </div>
-  ));
+  );
 
   return cards;
 }

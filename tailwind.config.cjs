@@ -41,6 +41,9 @@ module.exports = {
           "100%": { transform: "translateX(-60%)" },
         },
       },
+      transitionTimingFunction: {
+        "ease-Quart": "cubic-bezier(0.76, 0, 0.24, 1)",
+      },
     },
   },
   plugins: [require("tailwind-gradient-mask-image")],

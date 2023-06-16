@@ -12,6 +12,7 @@ export const projectData = [
     image: split,
     github: "github.com/ShivaKodes/Split",
     live: "",
+    color: "#8c8c8c",
     tech: [
       {
         id: 1,
@@ -42,6 +43,8 @@ export const projectData = [
     image: zepto,
     github: "github.com/ShivaKodes/zepto-url",
     live: "zepto-url.netlify.app",
+
+    color: "#000000",
     tech: [
       {
         id: 1,
@@ -68,6 +71,7 @@ export const projectData = [
     image: wordle,
     github: "github.com/ShivaKodes/WordleGame",
     live: "",
+    color: "#efe8d3",
     tech: [
       {
         id: 1,
@@ -90,6 +94,7 @@ export const projectData = [
     image: qr,
     github: "github.com/ShivaKodes/qr-code-generator",
     live: "generatesqrcode.netlify.app",
+    color: "#706d63",
     tech: [
       {
         id: 1,
@@ -112,6 +117,7 @@ export const projectData = [
     image: pwd,
     github: "github.com/ShivaKodes/Password-Generator",
     live: "good-password.netlify.app",
+    color: "#706d63",
     tech: [
       {
         id: 1,
