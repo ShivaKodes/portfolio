@@ -8,9 +8,9 @@ export default function Projects() {
   const [modal, setModal] = useState({ active: false, index: 1 });
 
   return (
-    <>
+    <div className="min-h-screen flex items-center  justify-center relative">
       <section
-        className="grid grid-cols-12 px-5 tablet:px-10 gap-5 col-span-full sm:px-5"
+        className="grid grid-cols-12 px-5 tablet:px-10 gap-5 col-span-full sm:px-5 w-full"
         id="projects"
       >
         <SectionHeader title={"Projects"} />
@@ -22,8 +22,8 @@ export default function Projects() {
             setModal={setModal}
           />
         ))}
-        <Modal modal={modal} projects={projectData} />
       </section>
-    </>
+      <Modal modal={modal} projects={projectData} />
+    </div>
   );
 }

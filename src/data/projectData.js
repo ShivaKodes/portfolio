@@ -30,10 +30,6 @@ export const projectData = [
         id: 4,
         name: "Sqlite",
       },
-      {
-        id: 1,
-        name: "HTML",
-      },
     ],
   },
   {
@@ -47,19 +43,19 @@ export const projectData = [
     color: "#000000",
     tech: [
       {
-        id: 1,
+        id: 5,
         name: "React",
       },
       {
-        id: 2,
+        id: 6,
         name: "Tailwind",
       },
       {
-        id: 3,
+        id: 7,
         name: "shrtcode API",
       },
       {
-        id: 4,
+        id: 8,
         name: "JavaScript",
       },
     ],
@@ -74,15 +70,15 @@ export const projectData = [
     color: "#efe8d3",
     tech: [
       {
-        id: 1,
+        id: 9,
         name: "HTML",
       },
       {
-        id: 2,
+        id: 10,
         name: "CSS",
       },
       {
-        id: 3,
+        id: 11,
         name: "JavaScript",
       },
     ],
@@ -97,15 +93,15 @@ export const projectData = [
     color: "#706d63",
     tech: [
       {
-        id: 1,
+        id: 12,
         name: "React",
       },
       {
-        id: 2,
+        id: 13,
         name: "Tailwind",
       },
       {
-        id: 3,
+        id: 14,
         name: "react-qrcode",
       },
     ],
@@ -120,15 +116,15 @@ export const projectData = [
     color: "#706d63",
     tech: [
       {
-        id: 1,
+        id: 15,
         name: "HTML",
       },
       {
-        id: 2,
+        id: 16,
         name: "Tailwind",
       },
       {
-        id: 3,
+        id: 17,
         name: "JavaScript",
       },
     ],
